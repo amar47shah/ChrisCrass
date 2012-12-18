@@ -1,0 +1,18 @@
+<doctype! html>
+<html lang="en">
+<head>
+	<title>Chris Crass, Author and Activist</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<nav>
+   <ul>
+  		<li><a href="/index.htm">Home</a></li>
+  		<li><a href="/about.htm">About</a></li>  		
+  		<li><a href="/book.htm">Book</a></li>
+  		<li><a href="/education.htm">Political Education</a></li>
+  		<li><a href="/writings.htm">Other Writings</a></li>
+   </ul>	
+	</nav>
+</body>
+</html>
