@@ -9,7 +9,6 @@ nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidd
 nav li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }
 nav li a:focus { outline:none; text-decoration:underline; }
 nav li:first-child a { border-left:none; }
-nav li.last { float:none; }
 nav li.last a { border-right:none; }
 nav a span { display:block; float:right; margin-left:5px; }
 nav ul ul { display:none; width:200%; position:relative; left:0; background:#335050; }

@@ -26,18 +26,24 @@
 	<nav id="topNav">
    <ul>
   		<li><a href="/index.htm">Home</a></li>
-  		<li><a href="/about.htm">About</a></li>  		
-  		<li><a href="/book.htm">Book</a>
+  		<li><a href="/about.htm">About Chris Crass</a></li>  		
+  		<li><a href="/book.htm">Toward Collective Liberation</a>
       	<ul>
-         	<li><a href="#" title="Sub Nav Link 1">Sub Nav Link 1</a></li>
-            <li><a href="#" title="Sub Nav Link 2">Sub Nav Link 2</a></li>
-            <li><a href="#" title="Sub Nav Link 3">Sub Nav Link 3</a></li>
-            <li><a href="#" title="Sub Nav Link 4">Sub Nav Link 4</a></li>
-            <li class="last"><a href="#" title="Sub Nav Link 5">Sub Nav Link 5</a></li>
-        </ul>        
+         	<li><a href="#" title="">About the Book</a></li>
+            <li><a href="#" title="">Excerpts</a></li>
+            <li><a href="#" title="">Praise</a></li>
+            <li><a href="#" title="">Schedule a Reading</a></li>
+            <li class="last"><a href="#" title="">Get a Copy</a></li>  
+         </ul>        
       </li>
-  		<li><a href="/education.htm">Political Education</a></li>
-  		<li><a href="/writings.htm">Other Writings</a></li>
+  		<li><a href="/education.htm">Political Education</a>
+  		   <ul>
+         	<li><a href="#" title="">Talks</a></li>
+            <li><a href="#" title="">Workshops</a></li>
+            <li class="last"><a href="#" title="">Schedule an Event</a></li>
+         </ul>
+      </li>        
+  		<li class="last"><a href="/writings.htm">Other Writings</a></li>
    </ul>	
 	</nav>
 	  <div class="content">
@@ -69,5 +75,7 @@
 				});
 			})(jQuery);
 		</script>
+      <script src="js/jquery.js"></script>  
+      <script src="js/modernizr.js"></script>
 </body>
 </html>
