@@ -68,13 +68,31 @@ nav {
 	color: #fff;
 	font-size: 10pt;
 	border-bottom: 8px solid #fff;
+	
+	margin: 0 auto; 
+	float: left;
+	padding: 14px 150px 0px;	
 }
 
-nav .inner {
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	height: 12px;
+	width: 150px;	
+}
+
+/*nav .inner {
 	width: 900px;
 	margin: 0 auto; 
 	float: left;
-	padding: 13px 200px;
+	padding: 13px 150px;
 }
 	
 nav .inner ul {
@@ -93,4 +111,4 @@ nav .inner li {
 
 nav .inner li .current a {
     color: #ff0;
-}
+}*/

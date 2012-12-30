@@ -8,27 +8,23 @@
 <body>
 	<nav>
    	<div class="inner">
-      	
-            <ul>
-  	         	<li><a href="./index.htm">Home</a></li>
-  	          	<li><a href="./about.htm">About</a></li>  		
-         		<li><a href="./book.htm">Book</a></li>
-         		<li class="current"><a href="./education.htm">Education</a></li>        
-         		<li><a href="./essays.htm">Essays</a></li>
-           </ul>
-         
+         <ul>
+  	         <li><a href="./index.htm">Home</a></li>
+  	         <li><a href="./about.htm">About</a></li>  		
+            <li><a href="./book.htm">Book</a></li>
+            <li class="current"><a href="./education.htm">Education</a></li>        
+            <li><a href="./essays.htm">Essays</a></li>
+         </ul>
       </div>	
 	</nav>
 	<nav>
       <div class="inner">
-         
-	         <ul>
-	           <li></li>
-         	   <li><a href="#" title="">Talks</a></li>
-               <li><a href="#" title="">Workshops</a></li>
-               <li><a href="#" title="">Invite Chris</a></li>
-            </ul>
-         
+	      <ul>
+	         <li></li>
+         	<li><a href="#" title="">Talks</a></li>
+            <li><a href="#" title="">Workshops</a></li>
+            <li><a href="#" title="">Invite Chris</a></li>
+         </ul>
       </div>
 	</nav>
 	<div class="justified">
