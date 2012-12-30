@@ -91,3 +91,7 @@ nav .inner-left li {
 	height: 12px;
 	width: 150px;
 }
+
+nav .inner-left li .current a {
+    color: #ff0;
+}
