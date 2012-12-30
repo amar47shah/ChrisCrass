@@ -1,10 +1,10 @@
 /*  
-Theme Name: Chris Crass, v.1
-Theme URI: 
-Description: Fundamental navigation, adapted from Deanna Zandt.
-Version: 1.0
-Author: Amar Shah
-Author URI: 
+Theme Name: Deanna Zandt, v5
+Theme URI: http://deannazandt.com/
+Description: The ongoing saga of the pink website.
+Version: 5.0
+Author: Deanna Zandt
+Author URI: http://deannazandt.com/
 */
 
 body {
@@ -13,13 +13,13 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #4D4D4D;
 	line-height: 1.3em;
-	/*text-align: center;*/
+	text-align: center;
 	margin: 0;
 	padding: 0; 
 }
 
 a {
-	color: #fff;
+	color: #E41B5B;
 	text-decoration: none;
 }
 
@@ -29,14 +29,13 @@ a:hover {
 	
 .alignleft {
 	float: left;
-	text-align: left;
-	padding: 30px 30px 30px 30px;
+	padding: 0px 10px 10px 0px;
 	border: 0px;
 }
 
 .alignright {
 	float: right;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 10px 10px;
 	border: 0px;
 }
 
@@ -54,40 +53,49 @@ img {
 	clear: both;
 }
 
-nav {
-	background: #2A765B;
+#nav {
+	background: #E41B5B;
 	height: 40px;
 	width: 100%;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #fff;
 	font-size: 10pt;
-	border-bottom: 8px solid #fff;
 }
 
-nav .inner {
+#nav a {
+	color: #fff;
+}
+
+#navon {
+	text-decoration: underline;
+}
+
+#nav .inner {
 	width: 900px;
 	margin: 0 auto;
 	text-align: left;
 	padding: 13px 0px 0px;
 }
 
-nav .inner-left {
-	width: 800px;
-	margin: auto; 
+#nav .inner-left {
+	width: 710px;
 	float: left;
-}
+	}
 	
-nav .inner-left ul {
+#nav .inner-left ul {
 	margin: 0px;
 	padding: 0px;
 	display: block;	
 }
 
-nav .inner-left li {
+#nav .inner-left li {
 	list-style: none;
-	display: inline-block;
+	display: block;
 	float: left;
 	height: 12px;
-	width: 150px;
+	margin: 0px 30px 0px 0px;
 }
+	
+#nav .inner-right {
+	width: 170px;

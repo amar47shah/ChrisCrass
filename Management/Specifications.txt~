@@ -19,14 +19,6 @@ drop down:
     how to order
     get a speaking engagement
         link to get Chris
-       	<ul>
-         	<li><a href="#" title="">About the Book</a></li>
-            <li><a href="#" title="">Excerpts</a></li>
-            <li><a href="#" title="">Praise</a></li>
-            <li><a href="#" title="">Schedule a Reading</a></li>
-            <li class="last"><a href="#" title="">Get a Copy</a></li>  
-         </ul>        
-
 POLITICAL EDUCATION (talks, workshops) -- maybe a drop-down menu hover over
 drop down:
     talks
@@ -37,14 +29,6 @@ drop down:
         description
         
     schedule an event -- get Chris for an event
-    
-    
- 		   <ul>
-         	<li><a href="#" title="">Talks</a></li>
-            <li><a href="#" title="">Workshops</a></li>
-            <li class="last"><a href="#" title="">Schedule an Event</a></li>
-         </ul>
-
 OTHER WRITINGS  drop down: topics?
     anthologies(around 6), online publications, Colors of Resistance
 

@@ -1,48 +1,93 @@
-/* JS disabled styles */
-.no-js nav li:hover ul { display:block; }
-
-/* base nav styles */
-nav { display:block; margin:0 auto 20px; border:1px solid #222; position:fixed; background-color:#aa5033; font:16px Tahoma, Sans-serif; }
-nav ul { padding:0; margin:0; }
-nav li { position:relative; float:left; list-style-type:none; }
-nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
-nav li a { display:block; padding:10px 20px; border-left:1px solid #999; border-right:1px solid #222; color:#eee; text-decoration:none; }
-nav li a:focus { outline:none; text-decoration:underline; }
-nav li:first-child a { border-left:none; }
-nav li.last { float:none; }
-nav li.last a { border-right:none; }
-nav a span { display:block; float:right; margin-left:5px; }
-nav ul ul { display:none; width:200%; position:relative; left:0; background:#335050; }
-nav ul ul li { float:none; }
-nav ul ul a { padding:5px 10px; border-left:none; border-right:none; font-size:14px; }
-nav ul ul a:hover { background-color:#555; }
-
-/* CSS3 */
-/*.borderradius nav { -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; }
-.cssgradients nav { background-image:-moz-linear-gradient(0% 22px 90deg, #222, #999); background-image:-webkit-gradient(linear, 0% 0%, 0% 70%, from(#999), to(#222)); }
-.boxshadow.rgba nav { -moz-box-shadow:2px 2px 2px rgba(0,0,0,.75); -webkit-box-shadow:2px 2px 2px rgba(0,0,0,.75); box-shadow:2px 2px 2px rgba(0,0,0,.75); }
-.cssgradients nav li:hover { background-image:-moz-linear-gradient(0% 100px 90deg, #999, #222); background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#222), to(#555)); }
-.borderradius nav ul ul { -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
-.boxshadow.rgba nav ul ul { background-color:rgba(0,0,0,0.8); -moz-box-shadow:2px 2px 2px rgba(0,0,0,.8); -webkit-box-shadow:2px 2px 2px rgba(0,0,0,.8); box-shadow:2px 2px 2px rgba(0,0,0,.8); }
-.rgba nav ul ul li { border-left:1px solid rgba(0,0,0,0.1); border-right:1px solid rgba(0,0,0,0.1); }
-.rgba nav ul ul a:hover { background-color:rgba(85,85,85,.9); }
-.borderradius.rgba nav ul ul li.last { border-left:1px solid rgba(0,0,0,0.1); border-bottom:1px solid rgba(0,0,0,0.1); -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -webkit-border-bottom-left-radius:4px; -webkit-border-bottom-right-radius:4px; border-bottom-left-radius:4px; border-bottom-right-radius:4px; }
-.csstransforms ul a span { -moz-transform:rotate(-180deg);-webkit-transform:rotate(-180deg); }
+/*  
+Theme Name: Chris Crass, v.1
+Theme URI: 
+Description: Fundamental navigation, adapted from Deanna Zandt.
+Version: 1.0
+Author: Amar Shah
+Author URI: 
 */
 
-/* fallbacks */
-.no-cssgradients nav, .no-js nav { padding-bottom:4px; border:none; background:url(../fallback/navBG.gif) repeat-x 0 0; }
-.no-borderradius nav ul, .no-js nav ul { background:url(../fallback/navRight.gif) no-repeat 100% 0; }
-.no-borderradius nav ul ul, .no-js nav ul ul { background:none; }
-.no-borderradius nav li, .no-js nav li { height:44px; }
-.no-cssgradients nav li:hover, .no-js nav li:hover { background:url(../fallback/navOverBG.gif) repeat-x 0 0; }
-.no-borderradius nav li li, .no-js nav li li { height:auto; width:98%; left:-2px; }
-.no-borderradius nav li:first-child, .no-js nav li:first-child { background:url(../fallback/navLeft.gif) no-repeat 0 0; }
-.no-borderradius nav li:first-child:hover, .no-js nav li:first-child:hover { background:url(../fallback/navOverLeft.gif) no-repeat 0 0; }
-.no-borderradius nav li li:first-child, .no-js nav li li:first-child { background:none; }
-.no-rgba nav ul ul, .no-js nav ul ul { left:1px; padding-left:2px; background:url(../fallback/subnavBG.png) no-repeat 100% 100%; }
-.no-rgba nav ul ul a, .no-js nav ul ul a { left:3px; }
-.no-rgba nav ul ul a:hover { background:url(../fallback/subOverBG.png) repeat 0 0; }
-.no-csstransforms ul a span { height:7px; width:12px; margin-top:8px; text-indent:-5000px; overflow:hidden; background:url(../fallback/indicator.png) no-repeat 0 0; }
-.no-borderradius ul ul li.last { margin-bottom:10px; }
-.no-cssgradients.boxshadow nav { box-shadow:none; }
+body {
+	background: #fff;
+	font-size: 11pt; 
+	font-family: Helvetica, Arial, sans-serif;
+	color: #4D4D4D;
+	line-height: 1.3em;
+	/*text-align: center;*/
+	margin: 0;
+	padding: 0; 
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+	
+.alignleft {
+	float: left;
+	text-align: left;
+	padding: 30px 30px 30px 30px;
+	border: 0px;
+}
+
+.alignright {
+	float: right;
+	padding: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	border: 0px;
+}
+	
+.clear {
+	clear: both;
+}
+
+nav {
+	background: #2A765B;
+	height: 40px;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	font-size: 10pt;
+	border-bottom: 8px solid #fff;
+}
+
+nav .inner {
+	width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 13px 0px 0px;
+}
+
+nav .inner-left {
+	width: 800px;
+	margin: auto; 
+	float: left;
+}
+	
+nav .inner-left ul {
+	margin: 0px;
+	padding: 0px;
+	display: block;	
+}
+
+nav .inner-left li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	height: 12px;
+	width: 150px;
+}
