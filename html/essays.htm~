@@ -14,7 +14,7 @@
   	          	<li><a href="./about.htm">About</a></li>  		
          		<li><a href="./book.htm">Book</a></li>
          		<li><a href="./education.htm">Education</a></li>        
-         		<li><a href="./essays.htm">Essays</a></li>
+         		<li class="current"><a href="./essays.htm">Essays</a></li>
            </ul>
          </div>
       </div>	
