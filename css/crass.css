@@ -8,17 +8,17 @@ Author URI:
 */
 
 body {
-	background: #fff;
+	background: #cebfb3; /*was fff*/
 	font-size: 11pt; 
 	font-family: Helvetica, Arial, sans-serif;
-	color: #4D4D4D;
+	color: #4d4d4d; /*was 4d4d4d*/
 	line-height: 1.3em;
 	margin: 0;
 	padding: 0; 
 }
 
 a {
-	color: #fff;
+	color: #e2e1d7;
 	text-decoration: none;
 }
 
@@ -60,18 +60,17 @@ img {
 }
 
 nav {
-	background: #2A765B;
-	height: 40px;
-	width: 100%;
+	background: #6a666f;
+	height:46px;
+	width: 75%;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #fff;
+	color: #e2e1d7;
 	font-size: 10pt;
-	border-bottom: 8px solid #fff;
+	border-bottom: 8px solid #cebfb3;
 	
-	margin: 0 auto; 
-	float: left;
-	padding: 13px 150px 0px;	
+	margin: auto; 
+	padding: 0px 150px 0px;	
 }
 
 nav ul {
@@ -84,31 +83,18 @@ nav li {
 	list-style: none;
 	display: inline-block;
 	float: left;
-	height: 12px;
-	width: 150px;	
-}
-
-/*nav .inner {
-	width: 900px;
-	margin: 0 auto; 
-	float: left;
-	padding: 13px 150px;
-}
-	
-nav .inner ul {
-	margin: 0px;
-	padding: 0px;
-	display: block;	
-}
-
-nav .inner li {
-	list-style: none;
-	display: inline-block;
-	float: left;
-	height: 12px;
+	height: 20px;
 	width: 150px;
+	padding: 13px 0px 13px 0px;
+	text-align: center;
+
 }
 
-nav .inner li .current a {
-    color: #ff0;
-}*/
+nav .current {
+	 /*background-color: #fff;*/
+   background-color: #f14c46;
+}
+
+nav .current a {
+   text-decoration: underline;
+}
