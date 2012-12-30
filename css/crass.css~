@@ -48,7 +48,7 @@ a:hover {
 .justified {
    float: left;
    text-align: justify;
-   padding: 30px 30px;
+   padding: 30px;
 }
 
 img {
@@ -72,24 +72,18 @@ nav {
 
 nav .inner {
 	width: 900px;
-	margin: 0 auto;
-	text-align: left;
-	padding: 13px 0px 0px;
-}
-
-nav .inner-left {
-	width: 800px;
-	margin: auto; 
+	margin: 0 auto; 
 	float: left;
+	padding: 13px 200px;
 }
 	
-nav .inner-left ul {
+nav .inner ul {
 	margin: 0px;
 	padding: 0px;
 	display: block;	
 }
 
-nav .inner-left li {
+nav .inner li {
 	list-style: none;
 	display: inline-block;
 	float: left;
@@ -97,6 +91,6 @@ nav .inner-left li {
 	width: 150px;
 }
 
-nav .inner-left li .current a {
+nav .inner li .current a {
     color: #ff0;
 }

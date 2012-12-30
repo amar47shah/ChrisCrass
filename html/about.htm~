@@ -8,7 +8,6 @@
 <body>
 	<nav>
    	<div class="inner">
-      	<div class="inner-left">
             <ul>
   	         	<li><a href="./index.htm">Home</a></li>
   	          	<li class="current"><a href="./about.htm">About</a></li>  		
@@ -16,7 +15,6 @@
          		<li><a href="./education.htm">Education</a></li>        
          		<li><a href="./essays.htm">Essays</a></li>
            </ul>
-         </div>
       </div>	
 	</nav>
 	<div class="justified">
