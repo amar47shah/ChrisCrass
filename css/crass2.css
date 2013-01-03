@@ -1,0 +1,90 @@
+/*  
+Theme Name: Chris Crass, v.1
+Theme URI: 
+Description: Fundamental navigation, adapted from Deanna Zandt.
+Version: 1.0
+Author: Amar Shah
+Author URI: 
+*/
+
+body {
+	background: #cebfb3;
+	font-size: 11pt; 
+	font-family: Helvetica, Arial, sans-serif;
+	color: #4d4d4d;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 0; 
+}
+
+a {
+	color: #e2e1d7;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.content {
+   margin-top: 50px;
+}
+
+.justified {
+   text-align: justify;
+   padding: 0px 30px;
+}
+
+.left {
+   float: left;
+   width: 40%;
+}
+
+.across {
+  float: left;
+  width: 95%
+}
+
+img {
+	border: 0px;
+}
+	
+.clear {
+	clear: both;
+}
+
+nav {
+	background-color: #6a666f;
+	height:46px;
+	width: 75%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 10pt;
+	border-bottom: 12px solid #cebfb3;	
+	margin: auto; 
+	padding: 0px 150px;	
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	width: 150px;
+	padding: 13px 0px;
+	text-align: center;
+}
+
+nav .current {
+   background-color: #de2928 /*#f14c46;*/
+}
+
+nav .current a {
+   text-decoration: underline;
+}

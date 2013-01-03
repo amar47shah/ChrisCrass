@@ -8,47 +8,41 @@ Author URI:
 */
 
 body {
-	background: #cebfb3; /*was fff*/
+	background: #a6ce39;
 	font-size: 11pt; 
 	font-family: Helvetica, Arial, sans-serif;
-	color: #4d4d4d; /*was 4d4d4d*/
+	color: #4d4d4d;
 	line-height: 1.3em;
 	margin: 0;
 	padding: 0; 
 }
 
 a {
-	color: #e2e1d7;
+	color: #fff;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
 }
-	
-.alignleft {
-	float: left;
-	text-align: left;
-	padding: 30px 30px 30px 30px;
-	border: 0px;
-}
 
-.alignright {
-	float: right;
-	padding: 0px 0px 0px 0px;
-	border: 0px;
-}
-
-.aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.content {
+   margin-top: 50px;
 }
 
 .justified {
-   float: left;
    text-align: justify;
-   padding: 30px;
+   padding: 0px 30px;
+}
+
+.left {
+   float: left;
+   width: 40%;
+}
+
+.across {
+  float: left;
+  width: 95%
 }
 
 img {
@@ -60,17 +54,15 @@ img {
 }
 
 nav {
-	background: #6a666f;
+	background-color: #830165;
 	height:46px;
 	width: 75%;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #e2e1d7;
 	font-size: 10pt;
-	border-bottom: 8px solid #cebfb3;
-	
+	border-bottom: 12px solid #a6ce39;	
 	margin: auto; 
-	padding: 0px 150px 0px;	
+	padding: 0px 150px;	
 }
 
 nav ul {
@@ -85,16 +77,14 @@ nav li {
 	float: left;
 	height: 20px;
 	width: 150px;
-	padding: 13px 0px 13px 0px;
+	padding: 13px 0px;
 	text-align: center;
-
 }
 
 nav .current {
-	 /*background-color: #fff;*/
-   background-color: #f14c46;
+   background-color: #00a3dc;
 }
 
 nav .current a {
-   color: 6a666f;
+   text-decoration: underline;
 }
