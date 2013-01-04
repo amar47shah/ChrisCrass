@@ -8,7 +8,7 @@ Author URI:
 */
 
 body {
-	background: #ebd17a;
+	background: #a6ce39;
 	font-size: 11pt; 
 	font-family: Helvetica, Arial, sans-serif;
 	color: #222;
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-	color: #b82d47;
+	color: #830165;
 	text-decoration: none;
 }
 
@@ -32,58 +32,69 @@ p {
 }
 
 img {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+
 }
 
 .content {
    padding-top: 50px;
    width: 95%;
-   /*border: 1px solid black;*/
+   /*/*border: 1px solid black;*/*/
 }
 
 .justified {
    text-align: justify;
-   padding: 0px 30px 30px;
+   padding-bottom: 10px;
 }
 
 .left {
    float: left;
-   width: 47%;
-   border: 1px solid black;
+   padding-left: 30px;
+   /*border: 1px solid black;*/
 }
 
 .right {
 	float: right;
-	width: 47%;
-	border: 1px solid black;
+	padding-left: 30px;
+	/*border: 1px solid black;*/
+}
+
+.half {
+   width: 47%;
 }
 
 .narrow {
-   width: 30%;	
+   width: 40%;	
 }
 
 .wide {
-   width: 63%;
+   width: 54%;
 }
 
 .across {
   float: left;
   width: 95%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 	
 .clear {
 	clear: both;
 }
 
+.blank-line {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /*border: 1px solid black;*/
+}
+
 nav {
-	background-color: #b82d47;
+	background-color: #830165;
 	height:46px;
 	width: 75%;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 10pt;
-	border-bottom: 12px solid #ebd17a;	
+	border-bottom: 12px solid #a6ce39;	
 	margin: auto; 
 	padding: 0px 150px;	
 }
@@ -109,23 +120,18 @@ nav li a {
 }
 
 nav .current {
-   background-color: #89d4b8;
+   background-color: #0762af;
 }
 
 nav .current a {
    text-decoration: underline;
-   color: #b82d47;
 }
 
 .subnav {
-   background-color: #89d4b8;
-}
-
-.subnav li a {
-	color: #b82d47;
+   background-color: #0762af;
 }
 
 .book-title {
-   color: #b82d47;
+   color: #830165;
    font-style: italic;
 }

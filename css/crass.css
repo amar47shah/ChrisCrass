@@ -32,48 +32,61 @@ p {
 }
 
 img {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
+
 }
 
 .content {
    padding-top: 50px;
    width: 95%;
-   /*border: 1px solid black;*/
+   /*/*border: 1px solid black;*/*/
 }
 
 .justified {
    text-align: justify;
-   padding: 0px 30px 30px;
+   padding-bottom: 10px;
 }
 
 .left {
    float: left;
-   width: 47%;
-   border: 1px solid black;
+   padding-left: 30px;
+   /*border: 1px solid black;*/
 }
 
 .right {
 	float: right;
-	width: 47%;
-	border: 1px solid black;
+	padding-left: 30px;
+	/*border: 1px solid black;*/
+}
+
+.half {
+   width: 47%;
 }
 
 .narrow {
-   width: 30%;	
+   width: 40%;	
 }
 
 .wide {
-   width: 63%;
+   width: 54%;
 }
 
 .across {
   float: left;
   width: 95%;
-  border: 1px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*border: 1px solid black;*/
 }
 	
 .clear {
 	clear: both;
+}
+
+.blank-line {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /*border: 1px solid black;*/
 }
 
 nav {
@@ -86,10 +99,6 @@ nav {
 	border-bottom: 12px solid #a6ce39;	
 	margin: auto; 
 	padding: 0px 150px;	
-}
-
-.subnav {
-   background-color: #0762af;
 }
 
 nav ul {
@@ -118,6 +127,10 @@ nav .current {
 
 nav .current a {
    text-decoration: underline;
+}
+
+.subnav {
+   background-color: #0762af;
 }
 
 .book-title {
