@@ -11,14 +11,15 @@ body {
 	background: #a6ce39;
 	font-size: 11pt; 
 	font-family: Helvetica, Arial, sans-serif;
-	color: #2d2d2d;
+	color: #222;
 	line-height: 1.3em;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
+	width: 100%; 
 }
 
 a {
-	color: #fff;
+	color: #830165;
 	text-decoration: none;
 }
 
@@ -26,27 +27,41 @@ a:hover {
 	text-decoration: underline;
 }
 
+p {
+	margin: 0px;
+}
+
+img {
+	border: 1px solid black;
+}
+
 .content {
-   margin-top: 50px;
+   padding-top: 50px;
+   width: 95%;
+   /*border: 1px solid black;*/
 }
 
 .justified {
    text-align: justify;
-   padding: 0px 30px;
+   padding: 0px 30px 30px;
 }
 
 .left {
    float: left;
-   width: 40%;
+   width: 47%;
+   border: 1px solid black;
+}
+
+.right {
+	float: right;
+	width: 47%;
+	border: 1px solid black;
 }
 
 .across {
   float: left;
-  width: 95%
-}
-
-img {
-	border: 0px;
+  width: 95%;
+  border: 1px solid black;
 }
 	
 .clear {
@@ -79,6 +94,10 @@ nav li {
 	width: 150px;
 	padding: 13px 0px;
 	text-align: center;
+}
+
+nav li a {
+   color: #fff;
 }
 
 nav .current {
