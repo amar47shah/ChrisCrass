@@ -37,7 +37,7 @@ img {
 
 .content {
    padding-top: 50px;
-   width: 96%;
+   width: 95%;
    /*border: 1px solid black;*/
 }
 
@@ -48,19 +48,27 @@ img {
 
 .left {
    float: left;
-   width: 48%;
+   width: 47%;
    border: 1px solid black;
 }
 
 .right {
 	float: right;
-	width: 48%;
+	width: 47%;
 	border: 1px solid black;
+}
+
+.narrow {
+   width: 30%;	
+}
+
+.wide {
+   width: 63%;
 }
 
 .across {
   float: left;
-  width: 96%;
+  width: 95%;
   border: 1px solid black;
 }
 	
@@ -78,6 +86,10 @@ nav {
 	border-bottom: 12px solid #a6ce39;	
 	margin: auto; 
 	padding: 0px 150px;	
+}
+
+.subnav {
+   background-color: #0762af;
 }
 
 nav ul {

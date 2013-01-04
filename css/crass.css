@@ -58,6 +58,14 @@ img {
 	border: 1px solid black;
 }
 
+.narrow {
+   width: 30%;	
+}
+
+.wide {
+   width: 63%;
+}
+
 .across {
   float: left;
   width: 95%;
@@ -78,6 +86,10 @@ nav {
 	border-bottom: 12px solid #a6ce39;	
 	margin: auto; 
 	padding: 0px 150px;	
+}
+
+.subnav {
+   background-color: #0762af;
 }
 
 nav ul {
@@ -106,4 +118,9 @@ nav .current {
 
 nav .current a {
    text-decoration: underline;
+}
+
+.book-title {
+   color: #830165;
+   font-style: italic;
 }
